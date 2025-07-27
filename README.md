@@ -1,10 +1,12 @@
 <h2 align="center">Multi-human Interactive Talking Dataset</h2>
+
 <p align="center">
   <a href="https://zeyu-zhu.github.io/webpage/">Zeyu Zhu</a>, 
   <a href="https://sites.google.com/view/showlab">Weijia Wu</a>, 
   <a href="https://scholar.google.com/citations?user=NgjTRe4AAAAJ&hl=zh-CN">Mike Shou Zheng</a>
 </p>
 
+<hr>
 
 Official repository for *Muti-human Interactive Talking Dataset*
 
