@@ -13,4 +13,4 @@ Official code for *Muti-human Interactive Talking Dataset*
 
 <p align="center"><img src="assets/dataset.png" width="800px"/><br> </p>
 
-These curated videos form the core of our dataset, chosen for their natural, engaging interactions, clear speaker dynamics, and avoidance of common visual phenomena in real-world videos such as camera motion, occlusions, and editing artifacts, ensuring clean yet diverse multi-speaker scenarios.
+We present a high-quality dataset for multi-human interactive talking video generation, comprising over $12$ hours of high-resolution conversational clips with diverse interaction patterns and approximately $200$ distinct identities from two talk shows. These curated videos form the core of our dataset, chosen for their natural, engaging interactions, clear speaker dynamics, and avoidance of common visual phenomena in real-world videos such as camera motion, occlusions, and editing artifacts, ensuring clean yet diverse multi-speaker scenarios.
