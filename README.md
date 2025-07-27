@@ -26,3 +26,26 @@ Official repository for *Muti-human Interactive Talking Dataset*
 <p align="center"><img src="assets/dataset.png" width="800px"/><br> </p>
 
 We present a high-quality dataset for multi-human interactive talking video generation, comprising over \$12\$ hours of high-resolution conversational clips with diverse interaction patterns and approximately \$200\$ distinct identities from two talk shows. These curated videos form the core of our dataset, selected for their natural, engaging interactions, clear speaker dynamics, and avoidance of common visual phenomena in real-world videos such as camera motion, occlusions, and editing artifacts—ensuring clean yet diverse multi-speaker scenarios. This serves as an ideal starting resource for this challenging new task.
+
+<table>
+  <tr>
+    <td>
+      <video width="300" controls>
+        <source src="assets/extended_data_vid/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video width="300" controls>
+        <source src="assets/extended_data_vid/video_0.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video width="300" controls>
+        <source src="assets/extended_data_vid/video_.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
