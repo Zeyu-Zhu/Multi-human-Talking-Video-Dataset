@@ -1,5 +1,6 @@
 
 <div align="center">
+<img src="assets/conversation.png" width="100">
 <h3>Multi-human Interactive Talking Dataset</h3>
 <p align="center">
   <a href="https://zeyu-zhu.github.io/webpage/">Zeyu Zhu</a>, 
