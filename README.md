@@ -1,5 +1,4 @@
 
-
 <div align="center">
 <h3>Multi-human Interactive Talking Dataset</h3>
 <p align="center">
@@ -7,8 +6,8 @@
   <a href="https://sites.google.com/view/showlab">Weijia Wu</a>, 
   <a href="https://scholar.google.com/citations?user=NgjTRe4AAAAJ&hl=zh-CN">Mike Shou Zheng</a>
 </p>
-<br>
 </div>
+##
 
 Official repository for *Muti-human Interactive Talking Dataset*
 
