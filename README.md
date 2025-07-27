@@ -6,7 +6,7 @@
   <a href="https://sites.google.com/view/showlab">Weijia Wu</a>, 
   <a href="https://scholar.google.com/citations?user=NgjTRe4AAAAJ&hl=zh-CN">Mike Shou Zheng</a>
 </p>
-<hr>
+<br>
 </div>
 
 
