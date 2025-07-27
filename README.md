@@ -12,3 +12,5 @@ Official code for *Muti-human Interactive Talking Dataset*
 ## 💾 MIT Dataset
 
 <p align="center"><img src="assets/dataset.png" width="800px"/><br> </p>
+
+These curated videos form the core of our dataset, chosen for their natural, engaging interactions, clear speaker dynamics, and avoidance of common visual phenomena in real-world videos such as camera motion, occlusions, and editing artifacts, ensuring clean yet diverse multi-speaker scenarios.
