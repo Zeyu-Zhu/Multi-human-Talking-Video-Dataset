@@ -1,5 +1,11 @@
-# Muti-human Interactive Talking Dataset
-Official code for *Muti-human Interactive Talking Dataset*
+## <p align="center">Muti-human Interactive Talking Dataset</p>
+<p align="center">
+  <a href="https://zeyu-zhu.github.io/webpage/">Zeyu Zhu</a>, 
+  <a href="https://sites.google.com/view/showlab">Weijia Wu</a>, 
+  <a href="https://scholar.google.com/citations?user=NgjTRe4AAAAJ&hl=zh-CN">Mike Shou Zheng</a>
+</p>
+
+Official repository for *Muti-human Interactive Talking Dataset*
 
 [Project Website]()  | [Paper]()  | [Dataset]()
 
