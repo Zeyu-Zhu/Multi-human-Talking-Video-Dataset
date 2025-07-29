@@ -29,11 +29,7 @@ We present a high-quality dataset for multi-human interactive talking video gene
     <td>
         <img src="assets/main_video/example_4.gif" width="250">
     </td>
-  </tr>
-</table>
-<table>
-  <tr>
-    <td>
+     <td>
         <img src="assets/main_video/example_8.gif" width="250">
     </td>
     <td>
@@ -44,6 +40,7 @@ We present a high-quality dataset for multi-human interactive talking video gene
     </td>
   </tr>
 </table>
+
 
 To showcase the potential of our data collection pipeline and further increase dataset diversity, we expand our dataset with an additional 3 hours of video from the YouTube short film channel Omeleto, which features rich, natural interactions and diverse character dynamics.
 While these additional videos do not contain shot transitions, they may include camera motion, occlusions, and other real-world artifacts. We believe this subset serves as a challenging and complementary test set that augments the cleaner, studio-style data in the main dataset.
