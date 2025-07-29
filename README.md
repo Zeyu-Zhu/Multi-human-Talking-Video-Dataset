@@ -1,7 +1,7 @@
 
-<p align="center"><img src="assets/conversation.png" width="100"></p>
-
-<p align="center"><strong><font size="+3">Multi-human Interactive Talking Dataset</font></strong></p>
+<p align="center">
+  <img src="assets/title.png" alt="Multi-human Interactive Talking Dataset" width="600">
+</p>
 
 
 <p align="center">
