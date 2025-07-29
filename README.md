@@ -1,8 +1,9 @@
 
 <p align="center"><img src="assets/conversation.png" width="100"></p>
-<h1 align="center">Multi-human Interactive Talking Dataset</h1>
 
 <p align="center">
+  <h1>Multi-human Interactive Talking Dataset</h1>
+  <br>
   <a href="https://weijiawu.github.io/MovieAgent/">
     <img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages">
   </a>
