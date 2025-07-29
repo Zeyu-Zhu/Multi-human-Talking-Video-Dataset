@@ -30,13 +30,13 @@ We present a high-quality dataset for multi-human interactive talking video gene
 <table>
   <tr>
     <td>
-        <img src="assets/extended_video/vid_10_10.gif" width="300">
+        <img src="assets/extended_video/vid_10_10.gif" width="250">
     </td>
     <td>
-        <img src="assets/extended_video/vid_8_10.gif" width="300">
+        <img src="assets/extended_video/vid_8_10.gif" width="250">
     </td>
     <td>
-        <img src="assets/extended_video/vid_3_10.gif" width="300">
+        <img src="assets/extended_video/vid_3_10.gif" width="250">
     </td>
   </tr>
 </table>
