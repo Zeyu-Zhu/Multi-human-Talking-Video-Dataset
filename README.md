@@ -30,22 +30,14 @@ We present a high-quality dataset for multi-human interactive talking video gene
 <table>
   <tr>
     <td>
-      <video width="300" controls>
-        <source src="assets/extended_data_vid/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+        <img src="assets/extended_video/vid_10_10.gif" width="300">
     </td>
     <td>
-      <video width="300" controls>
-        <source src="assets/extended_data_vid/video_0.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+        <img src="assets/extended_video/vid_8_10.gif" width="300">
     </td>
     <td>
-      <video width="300" controls>
-        <source src="assets/extended_data_vid/video_.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+        <img src="assets/extended_video/vid_3_10.gif" width="300">
     </td>
   </tr>
 </table>
+ffmpeg -i video_10.gif -vf "fps=10,scale=iw/2:ih/2:flags=lanczos" -c:v gif vid_10.gif
