@@ -1,6 +1,6 @@
 
 <p align="center"><img src="assets/conversation.png" width="100"></p>
-## <p align="center">Multi-human Interactive Talking Dataset</p>
+<h1 align="center">Multi-human Interactive Talking Dataset</h1>
 
 
 Official repository for *Muti-human Interactive Talking Dataset*
