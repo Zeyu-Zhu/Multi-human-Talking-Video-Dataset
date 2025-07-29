@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/title.png" alt="Multi-human Interactive Talking Dataset" width="600">
+  <img src="assets/title_color.png" alt="Multi-human Interactive Talking Dataset" width="600">
 </p>
 
 
