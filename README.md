@@ -2,7 +2,7 @@
 <p align="center"><img src="assets/conversation.png" width="100"></p>
 
 
-<p align="center" style="font-size:28px; font-weight:bold; margin: 20px 0;">
+<p align="center" style="font-size:50px; font-weight:bold; margin: 20px 0;">
   Multi-human Interactive Talking Dataset
 </p>
 
