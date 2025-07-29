@@ -27,6 +27,7 @@ Official repository for *Muti-human Interactive Talking Dataset*
 
 We present a high-quality dataset for multi-human interactive talking video generation, comprising over \$12\$ hours of high-resolution conversational clips with diverse interaction patterns and approximately \$200\$ distinct identities from two talk shows. These curated videos form the core of our dataset, selected for their natural, engaging interactions, clear speaker dynamics, and avoidance of common visual phenomena in real-world videos such as camera motion, occlusions, and editing artifacts—ensuring clean yet diverse multi-speaker scenarios. This serves as an ideal starting resource for this challenging new task.
 
+We furthur expand our dataset for additional 3 hours of data from the YouTube short film channel Omeleto, which features rich, natural interactions and diverse character dynamics. While these additional videos do not contain shot transitions, they may include camera motion, occlusions, or other real-world artifacts. We believe this subset serves as a valuable challenging test set that complements the cleaner studio-style data in the main dataset.
 <table>
   <tr>
     <td>
@@ -40,4 +41,3 @@ We present a high-quality dataset for multi-human interactive talking video gene
     </td>
   </tr>
 </table>
-ffmpeg -i video_10.gif -vf "fps=10,scale=iw/2:ih/2:flags=lanczos" -c:v gif vid_10.gif
