@@ -1,9 +1,12 @@
 
 <p align="center"><img src="assets/conversation.png" width="100"></p>
 
+
+<p align="center" style="font-size:28px; font-weight:bold; margin: 20px 0;">
+  Multi-human Interactive Talking Dataset
+</p>
+
 <p align="center">
-  <h1>Multi-human Interactive Talking Dataset</h1>
-  <br>
   <a href="https://weijiawu.github.io/MovieAgent/">
     <img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages">
   </a>
@@ -12,6 +15,7 @@
     <img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv">
   </a>
 </p>
+
 
 
 Official repository for *Muti-human Interactive Talking Dataset*
