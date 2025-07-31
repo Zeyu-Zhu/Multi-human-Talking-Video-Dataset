@@ -89,7 +89,7 @@ Put your raw videos in a folder, e.g., `./videos_input`. Then run WhisperV infer
 cd data_collection_pipeline
 python 1_whisperV_inference.py --raw_data_path ./videos_input --save_root_path seg_output_path
 ```
-Then select the valid clips anc crop them by:
+Then select the valid clips and crop. You can specify the number of speakers in the video using the `num_people` in `2_select_valid_clips.py` configuration parameter.
 ```bash
 python 2_select_valid_clips.py --seg_result_root_path seg_output_path --save_root_path select_video_clip_save_path
 python 3_speaking_annotate.py --seg_result_root seg_output_path --vaild_video_root select_video_clip_save_path output_path --datasets_root your_dataset_save_root
