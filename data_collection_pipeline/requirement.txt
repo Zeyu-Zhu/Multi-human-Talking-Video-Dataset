@@ -1,0 +1,12 @@
+scipy
+scikit-learn
+tqdm
+scenedetect
+opencv-python
+python_speech_features
+ffmpeg
+gdown
+youtube-dl
+pysrt
+deepface
+tensorflow==2.15.0

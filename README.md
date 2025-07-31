@@ -83,6 +83,13 @@ If you want to construct your own dataset. Please navigate to the following fold
 │   ├── 1_whisperV_inference.py
 │   ├── 2_select_valid_clips.py
 │   ├── 3_speaking_annotate.py
+│   ├── requirement.txt
+```
+Follow the instructions to prepare the env:
+```bash
+conda create -n mit_data python=3.9
+pip3 install -r requirement.txt
+conda activate mit_data
 ```
 Put your raw videos in a folder, e.g., `./videos_input`. Then run WhisperV inference (support multi-thread based on the number of your GPUs):
 ```bash
