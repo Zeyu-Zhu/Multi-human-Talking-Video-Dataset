@@ -97,3 +97,7 @@ python 3_speaking_annotate.py --seg_result_root seg_output_path --vaild_video_ro
 Then please refer to [spaiens](https://github.com/facebookresearch/sapiens) for pose estimation.
 
 Multi-human talking video generation is an exciting yet challenging task, we are looking forward to seeing the contribution of your data! Any request please email me at: zeyuzhu2077@outlook.com.
+
+## 🏋️ Training and Testing for CovOG
+
+**(coming soon)**
