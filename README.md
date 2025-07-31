@@ -87,13 +87,13 @@ If you want to construct your own dataset. Please navigate to the following fold
 ```
 Follow the instructions to prepare the env:
 ```bash
+cd data_collection_pipeline
 conda create -n mit_data python=3.9
 pip3 install -r requirement.txt
 conda activate mit_data
 ```
 Put your raw videos in a folder, e.g., `./videos_input`. Then run WhisperV inference (support multi-thread based on the number of your GPUs):
 ```bash
-cd data_collection_pipeline
 python 1_whisperV_inference.py --raw_data_path ./videos_input --save_root_path seg_output_path
 ```
 Then select the valid clips and crop. You can specify the number of speakers in the video using the `num_people` in `2_select_valid_clips.py` configuration parameter.
