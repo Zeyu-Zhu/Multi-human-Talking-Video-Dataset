@@ -71,3 +71,27 @@ Some samples are shown below:
     </td>
   </tr>
 </table>
+
+## 🔧 Data Collection Pipeline
+If you want to construct your own dataset. Please navigate to the following folder structure:
+```
+├── data_collection_pipeline/
+│   ├── 4_spaiens/
+│   │   ├── spaiens.txt
+│   ├── whisperV/
+│   │   ├── whisperV.txt
+│   ├── 1_whisperV_inference.py
+│   ├── 2_select_valid_clips.py
+│   ├── 3_speaking_annotate.py
+```
+Put your raw videos in a folder, e.g., `./videos_input`. Then run WhisperV inference (support multi-thread based on the number of your GPUs):
+```bash
+cd data_collection_pipeline
+python 1_whisperV_inference.py --raw_data_path ./videos_input --save_root_path seg_output_path
+```
+Then select the valid clips anc crop them by:
+```bash
+python 2_select_valid_clips.py --seg_result_root_path seg_output_path --save_root_path select_video_clip_save_path
+python 3_speaking_annotate.py --seg_result_root seg_output_path --vaild_video_root select_video_clip_save_path output_path --datasets_root your_dataset_save_root
+```
+Then please refer to [spaiens](https://github.com/facebookresearch/sapiens) for pose estimation.
