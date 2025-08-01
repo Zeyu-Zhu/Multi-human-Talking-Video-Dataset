@@ -1,4 +1,4 @@
-MIT-MultiHuman Dataset License (Non-Commercial, No Redistribution)
+MIT-Multi-human Interactive Talking Dataset License (Non-Commercial, No Redistribution)
 
 Copyright (c) 2025 Zeyu Zhu
 
