@@ -105,6 +105,42 @@ Then please refer to [spaiens](https://github.com/facebookresearch/sapiens) for 
 
 Multi-human talking video generation is an exciting yet challenging task, we are looking forward to seeing the contribution of your data! Any request please email me at: zeyuzhu2077@outlook.com.
 
-## 🏋️ Training and Testing for CovOG
+## 🏋️ Training code for CovOG
 
-**(coming soon)**
+We also release the training code of our baseline model CovOG. Follow the instructions to prepare the env:
+```bash
+cd baseline_train
+conda create -n mit_train python=3.10
+pip3 install -r requirement.txt
+conda activate mit_train
+```
+Download weights under the `./pretrained_weights` direcotry.
+```bash
+python tools/download_weights.py
+```
+First, construct the data config as follow according to your path under `./data_config`:
+```
+[
+    {
+        "image_dir": "",
+        "pose_dir": "",
+        "speak_info_path": "",
+        "audio_embedding_path": ""
+    },
+]
+```
+Then run these lines to train the model for stage 1 and stage 2:
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_stage_1.py --config configs/train/stage1_finetune.yaml
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch train_stage_2_CovOG.py --config configs/train/stage2_finetune_audio.yaml
+```
+## 🙏 Acknowledgment
+
+We refer to the following codebases when building our pipeline:
+
+- [Sapiens](https://github.com/facebookresearch/sapiens): For body pose estimation annotation.
+- [WhisperV](https://github.com/showlab/whisperV): For audio-visual speaker activity annotation.
+- [Hallo2](https://github.com/fudan-generative-vision/hallo2): For auido control module.
+- [Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone): For baseline model training.
+
+We sincerely thank the authors of these works for their valuable open-source contributions, which greatly facilitated our research and development.
